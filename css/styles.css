@@ -19,7 +19,7 @@ button {
 address {
     font-style: normal;
 }
-
+/*
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -29,7 +29,7 @@ address {
     padding: 0;
     white-space: nowrap;
     overflow: hidden;
-  }
+  }*/
 
 /*---header---*/
 .header-logo,
@@ -55,6 +55,11 @@ address {
     color: #2e2f42;
 }
 
+.header-menu-link:hover
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
 .header-address-link {
     font-weight: 400;
     font-size: 16px;
@@ -65,7 +70,7 @@ address {
 
 .header-address-link:hover, 
 .header-address-link:focus {
-    background: #404bbf;
+    color: #404bbf;
 }
 
 
@@ -139,6 +144,7 @@ address {
 }
 
 .team-list {
+    background-color: #FFFFFF;
 }
 
 .team-item {
@@ -165,7 +171,7 @@ address {
     color: #434455;
 }
 
-/*---portfolio---*/
+/*--- 4 - portfolio ---*/
 .portfolio {
 }
 
