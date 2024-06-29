@@ -55,6 +55,10 @@ address {
     color: #2e2f42;
 }
 
+.header-menu-link-first:hover {
+    color: #404bbf;
+}
+
 .header-menu-link:hover
 .header-menu-link:focus {
     color: #404bbf;
@@ -130,7 +134,8 @@ address {
 
 /*--- 3 - team ---*/
 .team {
-    background: #f4f4fd;
+    /*background: #f4f4fd;*/
+    background-color: #FFFFFF;
 }
 
 .team-title {
@@ -148,6 +153,7 @@ address {
 }
 
 .team-item {
+    background-color: #FFFFFF;
 }
 
 .team-img {
