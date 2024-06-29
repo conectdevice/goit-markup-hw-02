@@ -20,18 +20,6 @@ address {
     font-style: normal;
 }
 
-/*
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    overflow: hidden;
-}*/
-
 /*---header---*/
 .header-logo,
 .footer-logo {
@@ -62,7 +50,7 @@ address {
 }
 
 .header-address-link {
-    font-weight: ;
+    /*font-weight: 400;*/
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
